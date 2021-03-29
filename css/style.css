@@ -15,17 +15,17 @@ body {
 
 .header {
   background-color: #fff;
+  left: 0;
   padding: 15px;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   z-index: 10;
 }
 
 .header__inner {
-  width: 1100px;
   margin: 0 auto;
+  width: 1100px;
 }
 
 .header__inner__icon {
@@ -53,8 +53,8 @@ body {
 }
 
 .main-title {
-  padding: 250px 0;
   margin: 0 auto;
+  padding: 250px 0;
   width: 1100px;
 }
 
@@ -108,8 +108,8 @@ body {
 }
 
 .work__container {
-  width: 1100px;
   margin: 0 auto;
+  width: 1100px;
 }
 .work__container__theme {
   font-size: 24px;
@@ -152,8 +152,8 @@ body {
   font-weight: lighter;
   float: left;
   line-height: 30px;
-  text-align: center;
   padding: 0 90px;
+  text-align: center;
   width: 650px;
 }
 
@@ -182,8 +182,8 @@ body {
 
 .skill__container__theme {
   font-size: 24px;
-  text-align: center;
   padding-top: 70px;
+  text-align: center;
 }
 
 .skill__container__content {
@@ -202,20 +202,20 @@ body {
 
 .skill__container__content__wrapper__title {
   font-size: 16px;
-  text-align: center;
   margin: 10px;
+  text-align: center;
 }
 
 .sns__container {
-  text-align: center;
   padding: 200px 0;
+  text-align: center;
 }
 
 .sns____container__icon {
   color: #74cfae;
   font-size: 50px;
-  transition: all 0.3s ease;
   padding: 20px 0;
+  transition: all 0.3s ease;
   width: 185px;
 }
 
@@ -231,6 +231,6 @@ body {
 }
 
 .footer__container {
-  width: 1100px;
   margin: 0 auto;
+  width: 1100px;
 }
