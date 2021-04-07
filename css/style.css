@@ -37,8 +37,8 @@ body {
 .header__inner__contact {
   background-color: #74cfae;
   color: #fff;
-  font-size: 12px;
   float: right;
+  font-size: 12px;
   padding: 14px 12px;
   transition:all 0.3s ease;
 }
