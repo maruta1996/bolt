@@ -26,6 +26,7 @@
 ## article
 1. marginで要素の余白をとる
  - imageとtextの余白をmarginでとりました。
+
 ## work
 1. margin-topで親要素に余白をとる
  - marginで余白取りました。
@@ -33,10 +34,37 @@
  - marginに変更しました。
 3. 親要素にpadding-bottomつける
  - 親要素のpaddingつけました。
- ## skill
+
+
+## skill
 親要素にpadding-top付ける
  - paddingつけました。
 
 
 
+## レビュー2回目
+
+## header
+1. aタグの下線を消す
+  - クラス追加して下線を消しました。
+2. paddingを全周につけない（右にズレている）
+  - paddingの左右を0にしました。
+
+## article
+1. h2とtextの間をmarginでとる
+  - marginに修正しました。
+
+## work
+1. imgタグをaタグで囲む
+  - aタグで囲いました。
+2. imgタグをulでかこむ，paddingはリストにつける
+  - imgタグをリスト化しました。
+
+## skill
+1. justify-contentで真ん中に寄せる
+  - プロパティ適用しました。
+## sns
+1. aタグで作る，リスト化する
+  - aタグ設定，ulタグ設定しました。
+  
 

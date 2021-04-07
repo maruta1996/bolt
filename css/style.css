@@ -12,6 +12,10 @@ body {
   margin: 0 auto;
 }
 
+.a {
+  text-decoration: none;
+}
+
 .clearfix:after {
   content: "";
   clear: both;
@@ -21,7 +25,7 @@ body {
 .header {
   background-color: #fff;
   left: 0;
-  padding: 15px;
+  padding: 15px 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -88,7 +92,7 @@ body {
 
 .article-content__wrapper__theme {
   font-size: 24px;
-  padding-bottom: 35px;
+  margin-bottom: 35px;
   text-align: center;
 }
 
@@ -180,6 +184,7 @@ body {
 
 .skill__container__content {
   display: flex;
+  justify-content: center;
   padding-top: 50px;
 }
 
@@ -199,18 +204,22 @@ body {
 
 .sns__container {
   padding: 200px 0;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.sns____container__icon {
-  color: #74cfae;
-  font-size: 50px;
+.sns__container__icon {
   padding: 20px 0;
   transition: all 0.3s ease;
+  text-align: center;
   width: 185px;
 }
 
-.sns____container__icon:hover {
+.icon {
+  color: #74cfae;
+  font-size: 50px;
+}
+.sns__container__icon:hover {
   background-color: #fff;
   cursor: pointer;
 }
@@ -220,9 +229,4 @@ body {
   color: #fff;
   padding: 20px 0 25px 0;
   text-align: right;
-}
-
-.footer__container {
-  margin: 0 auto;
-  width: 1100px;
 }
