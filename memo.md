@@ -68,3 +68,28 @@
   - aタグ設定，ulタグ設定しました。
   
 
+
+
+​
+# Bolt レスポンシブ
+## 修正内容
+1. 稲妻アイコン大きくしなくていい
+ - 変更なしにしました。
+2. article__content__imageがはみ出している
+ - margin: 0 auto;指定しました。
+3. title__spはいらない
+  - 消しました。
+4. textは入子にする
+  - 改行，インデント統一しました。
+5. article-content__wrapper__theme のmarginを消して，article-content__wrapperをpadiing: 45px;にする
+  - padding: 45px;にして，article-content__wrapper__themeのmarginを消しました
+6. skill__container__content__wrapper__titleのpaddingは上だけでいい
+  - 修正しました。
+7. humbergerのzindexいらない
+  -消しました。
+8. label消してdivで，flex消してabsoluteで一指定，clearfixいらない
+  - ハンバーガーメニュー修正しました。
+9. 形作るものと配置するものを別に
+  -プロパティを並び替えました。
+10. basketballのアイコンが違う
+  - 確認，修正しました。
